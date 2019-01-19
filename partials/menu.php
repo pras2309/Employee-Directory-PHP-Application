@@ -30,6 +30,7 @@
             <div class="row">
                 <ul class="col-large-12 columns">
                     <?php if( is_admin() ) : ?>
+                    <li><a href="sentiment_collection" title="Sentiment Collection">Sentiment Collection</a></li>
                     <li><a href="reports" title="See Reports">Reports</a></li>
                     <li><a href="user-list" title="See Users">Users</a></li>
                     <li><a href="department-list">Departments</a></li>
