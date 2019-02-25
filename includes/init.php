@@ -11,5 +11,7 @@ require_once('classes/database.php');
 require_once('classes/user.php');
 require_once('classes/employee.php');
 
+require_once('classes/reviews.php');
+
 
 

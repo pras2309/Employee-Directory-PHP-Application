@@ -20,6 +20,8 @@ if( (FILENAME != 'login.php') ) {
     <link rel="stylesheet" href="assets/vendor/datatables/datatables.min.css" />
     <link rel="stylesheet" href="assets/vendor/fontello/ico-embedded.css" />
     <link rel="stylesheet" href="assets/css/style.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </head>
 <body>
 <?php if(FILENAME != 'login.php') { include('partials/menu.php'); } ?>
