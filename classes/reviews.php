@@ -2,6 +2,7 @@
 
 class Reviews{
 
+    
 
     public static function get_review_by_arguments($category, $subcategory) {
 
@@ -21,7 +22,7 @@ class Reviews{
         //update the manual_in_progress flag to 1
         $updateReviewSql = "UPDATE product_reviews SET manual_in_progress = 1 WHERE id =".$review_id;
         $database->run_query($updateReviewSql);
-        
+
         return $results;
     }
 
